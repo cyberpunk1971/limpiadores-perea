@@ -27,6 +27,12 @@ const hideModal = () => {
     
 }
 
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 
 us.addEventListener('click', () => {
     showModal();
