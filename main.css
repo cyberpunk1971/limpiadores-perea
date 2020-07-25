@@ -3,12 +3,17 @@ html {
 }
 
 header {
+    font-family: 'Ranchers', cursive;
     box-sizing: border-box;
     border: 1px solid black;
     display: flex;
     padding: 10px;
     justify-content: center;
     align-items: center;
+}
+
+.company-name {
+    letter-spacing: 1px;
 }
 
 ul {
@@ -21,6 +26,7 @@ ul {
 li {
     list-style-type: none;
     cursor: pointer;
+    font-family: 'Ranchers', cursive;
 }
 
 p {
@@ -44,11 +50,16 @@ p {
 }
 
 #modal-text {
+    font-family: cursive;
+    position: relative;
     background-color: white;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
 }
 
 .close {
@@ -67,6 +78,8 @@ p {
 
 #close-modal {
     cursor: pointer;
+    font-size: 30px;
+    float: right;
 }
 
 footer {
@@ -78,3 +91,13 @@ footer {
     color: white;
     text-align: center;
 }
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0;}
+    to {top: 0; opacity: 1;}
+}
+
+
+
+
+
