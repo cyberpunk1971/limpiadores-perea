@@ -11,7 +11,7 @@
 <body>
     <header>
         <h1 class="company-name">Limpiadores Perea</h1>
-        <div>
+        <div class="slogan">
             <p>Profesional</p>
             <p>Puntual</p>
             <p>Perea!</p>
@@ -26,12 +26,25 @@
             <li id="contact">Contacto</li>
         </ul>
     </nav>
+    <section class="container">
+    <form action="submit" method="POST">
+        <label for="fname">Nombre de pila:</label>
+        <input type="text" class="user-input">
+        <label for="lname">Apellido:</label>
+        <input type="text" class="user-input">
+        <label for="telefono">Telefono:</label>
+        <input type="text" class="user-input">
+        <label for="mensaje" class="msg-label">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+        <input type="button" value="Enviar" class="submit-btn">
+    </section>
+    </form>
     <div id="myModal" class="modal">
         <div id="modal-text">
             <span id="close-modal">&times;</span>
             <p id="modal-content">text</p>
         </div>
     </div>
-    <footer>The Digital Desert 2020</footer>
+    <footer><a href="thedigitaldesert.com" target="_blank">The Digital Desert 2020</a></footer>
 </body>
 </html>

@@ -1,5 +1,10 @@
-html {
+* {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header {
@@ -87,6 +92,32 @@ p {
     float: right;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 75%;
+    
+}
+
+.submit-btn {
+    margin-bottom: 75px;
+    margin-top: 5px;
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -95,6 +126,72 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        margin-top: 55px;
+    }
+    header {
+        font-size: 12px;
+        background-size: cover;
+    }
+
+    p {
+        margin-left: 90px;
+        padding-right: 20px;
+    }
+}  
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        background-size: cover;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    .user-input {
+        height: 50px;
+        width: 300px;
+        margin-bottom: 30px;
+        border: 1px solid black;
+    }
+
+    .msg-label {
+        margin-top: 25px
+    }
+
+    textarea {
+        margin-top: 10px;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 280px) {
+    .slogan {
+        font-size: 10px;
+        margin: 0;
+    }
 }
 
 @keyframes animatetop {
