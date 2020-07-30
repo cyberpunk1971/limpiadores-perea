@@ -7,22 +7,38 @@ a {
     color: white;
 }
 
-header {
-    background: url("images/FLAG_mexico.png");
+.image {
+    width: 100%;
+    height: auto;
+}
+
+/* header {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     font-family: 'Ranchers', cursive;
     box-sizing: border-box;
-    border: 1px solid black;
-    display: flex;
+    /* border: 1px solid black; */
+    /* display: flex;
     padding: 10px;
     justify-content: center;
     align-items: center;
-}
+} */ 
 
 
 .company-name {
     letter-spacing: 1px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'Ranchers', cursive;
+    
+}
+
+.slogan {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-family: 'Ranchers', cursive;
 }
 
 ul {
@@ -116,6 +132,7 @@ form {
     color: white;
     background-color: green;
     border: none;
+    border-radius: 10%;
 }
 
 footer {
@@ -143,12 +160,13 @@ footer {
     }
 }  
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width:768px) {
 
-    header {
+    /* header {
         background-size: cover;
-    }
+    } */
 
+    
     .container {
         display: flex;
         justify-content: center;
@@ -191,6 +209,12 @@ footer {
     .slogan {
         font-size: 10px;
         margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .image {
+        display: none;
     }
 }
 

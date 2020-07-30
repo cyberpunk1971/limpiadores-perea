@@ -1,0 +1,22 @@
+{
+  "name": "limpiadores-perea",
+  "version": "1.0.0",
+  "description": "The website for Limpiadores Perea",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberpunk1971/limpiadores-perea.git"
+  },
+  "author": "Alex Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyberpunk1971/limpiadores-perea/issues"
+  },
+  "homepage": "https://github.com/cyberpunk1971/limpiadores-perea#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.11"
+  }
+}
