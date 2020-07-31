@@ -31,7 +31,6 @@ a {
     top: 8px;
     left: 16px;
     font-family: 'Ranchers', cursive;
-    
 }
 
 .slogan {
@@ -125,6 +124,7 @@ form {
 }
 
 .submit-btn {
+    cursor: pointer;
     margin-bottom: 75px;
     margin-top: 5px;
     width: 50%;
@@ -215,6 +215,10 @@ footer {
 @media only screen and (min-width: 1025px) {
     .image {
         display: none;
+    }
+
+    body {
+        background-color: tomato;
     }
 }
 
