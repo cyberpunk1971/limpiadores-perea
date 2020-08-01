@@ -15,7 +15,7 @@ const secondBlock = () => {
 }
 
 const thirdBlock = () => {
-    return modalContent.textContent = "Para obtener una estimación del costo y el tiempo de sus servicios necesarios, contáctenos a email@gmail.com o por teléfono al 664-116-0957."
+    return modalContent.textContent = "Para obtener una estimación del costo y el tiempo de sus servicios necesarios, contáctenos a CCCPerea@protonmail.com, por teléfono al 664-116-0957, o complete el formulario de contacto y nos pondremos en contacto con usted.."
 }
 
 const showModal = () => {

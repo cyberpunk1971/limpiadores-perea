@@ -12,18 +12,7 @@ a {
     height: auto;
 }
 
-/* header {
-    background-repeat: no-repeat;
-    background-size: cover; 
-    font-family: 'Ranchers', cursive;
-    box-sizing: border-box;
-    /* border: 1px solid black; */
-    /* display: flex;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-} */ 
-
+ 
 
 .company-name {
     letter-spacing: 1px;
@@ -220,6 +209,26 @@ footer {
     body {
         background-color: tomato;
     }
+
+    header {
+        box-sizing: border-box;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    } 
+
+    #modal-text {
+        width: 0 auto;
+        height: auto;
+    }
+
+    .container {
+        margin-bottom: 50px;
+        margin-top: 55px;
+    }
+    
 }
 
 @keyframes animatetop {
